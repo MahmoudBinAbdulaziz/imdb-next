@@ -8,10 +8,10 @@ function Header() {
   return (
     <header className="flex justify-between items-center p-3 max-w-6xl mx-auto">
       <div className="flex gap-4">
-        <MenuItem href={"#"} Icon={AiFillHome}>
+        <MenuItem href={"/"} Icon={AiFillHome}>
           Home
         </MenuItem>
-        <MenuItem href={"#"} Icon={BsFillInfoCircleFill}>
+        <MenuItem href={"/about"} Icon={BsFillInfoCircleFill}>
           About
         </MenuItem>
       </div>
