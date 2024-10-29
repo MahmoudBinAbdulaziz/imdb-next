@@ -3,6 +3,7 @@ import React from "react";
 import MenuItem from "./menuItem";
 import { AiFillHome } from "react-icons/ai";
 import { BsFillInfoCircleFill } from "react-icons/bs";
+import DarkModeSwitch from "./darkModeSwitch";
 function Header() {
   return (
     <header className="flex justify-between items-center p-3 max-w-6xl mx-auto">
@@ -15,6 +16,7 @@ function Header() {
         </MenuItem>
       </div>
       <div className="flex items-center gap-4">
+        <DarkModeSwitch />
         <Link href={"/"} className="flex gap-1 items-center">
           <span className="text-2xl font-bold bg-amber-500 py-1 px-2 rounded-lg">
             IMDb
