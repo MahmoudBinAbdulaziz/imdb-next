@@ -18,6 +18,5 @@ export default async function Page({ searchParams }) {
     return <Results results={data.results} />;
   } catch (error) {
     console.error("Error fetching data:", error.message);
-    return <div>Error loading data</div>; // Provide a fallback
   }
 }
